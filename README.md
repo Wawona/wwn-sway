@@ -20,6 +20,6 @@ Apple/Android; sway uses its nested Wayland backend.
 3. wlroots dependency: build the nested-Wayland backend only.
 4. Replace `dependencies/sway/stub.nix` with per-platform derivations; expose
    `sway-{ios,macos,android}`; register in Wawona.
-5. `wwn-apt` lists `sway` `status: planned` → flip to `approved` post-review.
+5. Port plan lists `sway` `status: planned` → flip to `approved` post-review.
 
 Convention: [wwn-* porting convention](https://github.com/Wawona/Wawona/blob/main/docs/2026-wwn-porting-convention.md).
